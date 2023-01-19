@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: orange;
+}
+
+.main_wrapper {
+    display: flex;
+    background-color: #F3EDFE;
+    width: auto;
+    height: 1010px;
+    position: relative;
+    z-index: initial;
+
+}
+
+.navigation_top {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-top: 1%;
+    padding-left: 30px;
+    flex-wrap: wrap;
+
+}
+
+.main_page {
+
+    text-align: center;
+    border: 2px;
+    border-radius: 8px;
+    padding: 5px 0px 5px 0px;
+    background-color: #c3d3f3;
+    width: 150px;
+    height: 32px;
+    box-shadow: 0 0 2px 3px rgb(200, 188, 209) inset;
+    color: rgb(17, 71, 117);
+
+
+}
+
+.aerosol {
+    text-align: center;
+    border: 2px;
+    border-radius: 8px;
+    padding: 5px 0px 5px 0px;
+    background-color: #c3d3f3;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 32px;
+    box-shadow: 0 0 2px 3px rgb(200, 188, 209) inset;
+    color: rgb(17, 71, 117);
+
+}
+
+.gases {
+    text-align: center;
+    border: 2px;
+    border-radius: 8px;
+    padding: 5px 0px 5px 0px;
+    background-color: #c3d3f3;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 32px;
+    box-shadow: 0 0 2px 3px rgb(200, 188, 209) inset;
+    color: rgb(17, 71, 117);
+
+}
+
+.ppe {
+    text-align: center;
+    border: 2px;
+    border-radius: 8px;
+    padding: 5px 0px 5px 0px;
+    background-color: #c3d3f3;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 32px;
+    box-shadow: 0 0 2px 3px rgb(200, 188, 209) inset;
+    color: rgb(17, 71, 117);
+
+}
+
+.h1 {
+    display: flex;
+    position: absolute;
+    left: 43%;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.main_text {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.main_text_left {
+    padding: 0px 30px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    font-style: italic;
+    width: 30%;
+}
+
+.main_text_middle {
+    padding: 0px 30px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    font-style: italic;
+    margin-top: 100px;
+    width: 30%;
+}
+
+.main_text_right {
+    padding: 0px 40px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    font-style: italic;
+    margin-top: 200px;
+    width: 30%;
+}
+
+.main_page_image {
+    position: absolute;
+    top: 0%;
+
+
+}
+
+/* Specific stiling for "aerosol" page*/
+
+.h2_aeros_form {
+    display: flex;
+    position: absolute;
+
+    margin-top: 200px;
+    width: 100%;
+    z-index: 1;
+    padding-left: 43%;
+}
+
+.AEF {
+    position: absolute;
+    z-index: 1;
+    margin-top: 300px;
+    margin-left: 43%;
+    padding: 20px;
+}
+
+.AEF_Submit {
+    width: 50px;
+}
+
+/* Specific styling for "gases" page */
+
+.ul_gases {
+    position: absolute;
+    z-index: 1;
+    margin-top: 300px;
+    margin-left: 43%;
+    padding: 20px;
+    font-size: 16pt;
+}
+
+.ppe_img_grid {
+
+    display: grid;
+    position: absolute;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 150px 150px;
+    top: 300px;
+    left: 40%;
+
+}
